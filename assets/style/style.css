@@ -1,0 +1,23 @@
+body {
+    background-color: #141414;
+    width: 100%;
+    position: absolute;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+#main-container {
+    border-radius: 10px;
+    text-align: center;
+    width: 400px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 150px;
+    background-color: #1d1d1d;
+}
+
+.img-avatar img {
+    width: 90px;
+    border-radius: 50px;
+    margin-top: 40px;
+}
