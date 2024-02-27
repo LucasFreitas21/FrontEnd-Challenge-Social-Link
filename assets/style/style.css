@@ -4,6 +4,7 @@ body {
     position: absolute;
     color: #fff;
     box-sizing: border-box;
+    min-height: 100vh;
 }
 
 #main-container {
@@ -14,10 +15,73 @@ body {
     margin: 0 auto;
     margin-top: 150px;
     background-color: #1d1d1d;
+    font-family: Helvetica;
+    margin-bottom: 100px;
 }
 
 .img-avatar img {
     width: 90px;
     border-radius: 50px;
     margin: 40px 0 25px;
+}
+
+.name-container h2 {
+    margin-bottom: 5px;
+    color: #f2f2f2;
+    letter-spacing: .5px;
+}
+
+.name-container p {
+    color: rgb(174, 240, 20);
+    font-size: 14px;
+    letter-spacing: .5px;
+    margin-bottom: 20px;
+}
+
+.description {
+    letter-spacing: .5px;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.list-content ul,
+li {
+    list-style-type: none;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.btn-menu a {
+    text-decoration: none;
+    display: inline-block;
+    width: 300px;
+    padding: 10px;
+    background-color: #524f4fc0;
+    color: #f2f2f2;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn-menu a:hover {
+    color: #524f4fc0;
+    background-color: rgb(174, 240, 20);
+    cursor: pointer;
+}
+
+footer {
+    height: 60px;
+    text-align: center;
+    min-width: 100%
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer .mentor-link {
+    color: rgba(230, 53, 53, 0.89);
+}
+
+footer .lucas-link {
+    color: rgb(174, 240, 20);
 }
