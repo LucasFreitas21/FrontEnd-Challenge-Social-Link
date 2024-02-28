@@ -6,7 +6,7 @@ body {
     box-sizing: border-box;
     min-height: 100vh;
 }
-
+/* MAIN */
 #main-container {
     border-radius: 10px;
     text-align: center;
@@ -17,6 +17,35 @@ body {
     background-color: #1d1d1d;
     font-family: Helvetica;
     margin-bottom: 100px;
+    animation: color 5s infinite;
+}
+
+/* border-style */
+@keyframes color {
+    0% {
+        border: 1px solid rgb(174, 240, 20);
+        box-shadow: 2px 2px 2px rgb(174, 240, 20);
+    }
+
+    25% {
+        border: 1px solid rgb(235, 247, 207);
+        box-shadow: 2px 2px 2px rgb(235, 247, 207);
+    }
+
+    50% {
+        border: 1px solid rgb(174, 240, 20);
+        box-shadow: 2px 2px 2px rgb(174, 240, 20);
+    }
+
+    75% {
+        border: 1px solid rgb(235, 247, 207);
+        box-shadow: 2px 2px 2px rgb(235, 247, 207);
+    }
+
+    100% {
+        border: 1px solid rgb(174, 240, 20);
+        box-shadow: 2px 2px 2px rgb(174, 240, 20);
+    }
 }
 
 .img-avatar img {
@@ -50,7 +79,7 @@ li {
     text-decoration: none;
     margin-bottom: 20px;
 }
-
+/* LINKS */
 .btn-menu a {
     text-decoration: none;
     display: inline-block;
@@ -67,11 +96,17 @@ li {
     background-color: rgb(174, 240, 20);
     cursor: pointer;
 }
-
+/* FOOTER */
 footer {
-    height: 60px;
+    height: 20px;
     text-align: center;
-    min-width: 100%
+    min-width: 100%;
+    background-color: #1d1d1d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    letter-spacing: 1px;
 }
 
 footer a {
